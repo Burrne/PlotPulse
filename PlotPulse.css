@@ -1,0 +1,678 @@
+
+.header .logo{
+	width:100px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.header{
+	background-color:#000;
+}
+.header .menu a{
+	color:#fff;
+	margin-right:20px;
+	text-decoration:none;
+	font-size:18px;
+	transition:0.1s;
+	padding: 7px 14px
+}
+.header .menu{
+	margin-top:25px;
+	margin-left:40px;
+}
+.header .menu a:hover{
+	color:#000;
+	border:1px solid #fff;
+	border-radius:4px;
+	background-color:#fff;
+}
+.header .search{
+	margin-top:18px;
+	width:100%;
+	height:40px;
+	border:1px solid #fff;
+	border-radius:4px;
+	padding-left:12px;
+}
+.header .lr{
+	margin-top:20px;
+	margin-left:30px;
+	
+}
+.header .login{
+	padding: 7px 14px;
+	border-radius:4px;	
+	margin-right:10px;
+	font-weight:bold;
+	background-color:#ffbd3f;
+	color:#000;
+	text-decoration:none;
+}
+.login a{
+	top:20px;
+}
+*{
+	box-sizing: border-box;
+}
+	
+html,
+    body {
+      position: relative;
+      height: 100%;
+	  background-color:#000;
+    }
+
+    body {
+      background: #000;
+      font-family:Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+  background: #444;
+  display: flex;
+  border: 2px solid black;
+  position: relative;
+  width: 100%;
+  height: 100%; /* Хэмжээ зааж өгөх хэрэгтэй */
+  overflow: hidden; /* Илүүдэл хэсгийг нуух */
+}
+
+
+	
+	.poster1 {
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  height:300px;
+  z-index: 2;
+  object-fit: cover;
+  background-color:rgba(0,0,0,0.5);
+  
+}
+	
+	.slide1{
+		display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  filter: blur(5px);
+	  position:relative;
+	}
+	
+.swiper-slide .h11 h1{
+	position: absolute;
+    color: white;
+    top:25%;
+	left:31%;
+    font-size:37px;
+}
+
+.swiper-slide .h11 p{
+	position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h11 .text1{
+		position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h11 #rev1{
+		position: absolute;
+    color: white;
+    top:32%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h11 .trailer1{
+	position: absolute;
+	background-color: #fff;
+	border-radius:15px;
+	top:50%;
+	left:31%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+.h11 .movie1{
+	position: absolute;
+	background-color: #ffbd3f;
+	border-radius:15px;
+	top:50%;
+	left:40%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+	.poster2 {
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  height:300px;
+  z-index: 2;
+  object-fit: cover;
+  background-color:rgba(0,0,0,0.5);
+  
+}
+
+.slide2{
+	display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	filter: blur(5px);
+}
+	
+
+
+.swiper-slide .h12 h1{
+	position: absolute;
+    color: white;
+    top:25%;
+	left:31%;
+    font-size:37px;
+}
+
+.swiper-slide .h12 p{
+	position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h12 .text2{
+		position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h12 #rev2{
+		position: absolute;
+    color: white;
+    top:32%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h12 .trailer2{
+	position: absolute;
+	background-color: #fff;
+	border-radius:15px;
+	top:50%;
+	left:31%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+.h12 .movie2{
+	position: absolute;
+	background-color: #ffbd3f;
+	border-radius:15px;
+	top:50%;
+	left:40%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+	.poster3 {
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  height:300px;
+  z-index: 2;
+  object-fit: cover;
+  background-color:rgba(0,0,0,0.5);
+  
+}
+
+.slide3{
+		display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  filter: blur(5px);
+	}
+	
+
+
+.swiper-slide .h13 h1{
+	position: absolute;
+    color: white;
+    top:25%;
+	left:31%;
+    font-size:37px;
+}
+
+.swiper-slide .h13 p{
+	position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h13 .text3{
+		position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h13 #rev3{
+		position: absolute;
+    color: white;
+    top:32%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h13 .trailer3{
+	position: absolute;
+	background-color: #fff;
+	border-radius:15px;
+	top:50%;
+	left:31%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+.h13 .movie3{
+	position: absolute;
+	background-color: #ffbd3f;
+	border-radius:15px;
+	top:50%;
+	left:40%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+	.poster4 {
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  height:300px;
+  z-index: 2;
+  object-fit: cover;
+  background-color:rgba(0,0,0,0.5);
+  
+}
+
+.slide4{
+		display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  filter: blur(5px);
+	}
+	
+
+
+.swiper-slide .h14 h1{
+	position: absolute;
+    color: white;
+    top:25%;
+	left:31%;
+    font-size:37px;
+}
+
+.swiper-slide .h14 p{
+	position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h14 .text4{
+		position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h14 #rev4{
+		position: absolute;
+    color: white;
+    top:32%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h14 .trailer4{
+	position: absolute;
+	background-color: #fff;
+	border-radius:15px;
+	top:50%;
+	left:31%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+.h14 .movie4{
+	position: absolute;
+	background-color: #ffbd3f;
+	border-radius:15px;
+	top:50%;
+	left:40%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+	.poster5{
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 13%;
+  height:300px;
+  z-index: 2;
+  object-fit: cover;
+  background-color:rgba(0,0,0,0.5);
+  
+}
+
+.slide5{
+		display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+	  filter: blur(5px);
+	}
+	
+
+
+.swiper-slide .h15 h1{
+	position: absolute;
+    color: white;
+    top:25%;
+	left:31%;
+    font-size:37px;
+}
+
+.swiper-slide .h15 p{
+	position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h15 .text5{
+		position: absolute;
+    color: white;
+    top:36%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h15 #rev5{
+		position: absolute;
+    color: white;
+    top:32%;
+	left:31%;
+	text-align:left;
+	font-family: Arial, sans-serif;
+	width:50%;
+}
+
+.h15 .trailer5{
+	position: absolute;
+	background-color: #fff;
+	border-radius:15px;
+	top:50%;
+	left:31%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+.h15 .movie5{
+	position: absolute;
+	background-color: #ffbd3f;
+	border-radius:15px;
+	top:50%;
+	left:40%;
+	padding: 20px;
+	font-size:26px;
+	text-decoration:none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:#000;
+}
+
+ 
+.h11, .h12, .h13, .h14, .h15{
+	background: rgba(12, 12, 12, 0.7);
+	width:100%;
+	height:100%;
+}
+.container h3{
+	color:#fff;
+	margin-top:40px;
+	margin-bottom:30px;
+	font-size:37px;
+ }
+ 
+.M1{
+	width:100%;
+	height:280px;
+}
+.container h5{
+	color:#fff;
+	top:10px;
+}
+.r1 img{
+	object-fit:cover;
+	margin-top:20px;
+}
+.r1 p{
+	position:absolute;
+	background: rgba(12, 12, 12, 0.5);
+	border-radius:5px;
+	color:#fff;
+	top:30px;
+	right:10px;
+	padding:3px;
+}
+.r1{
+	position:relative;
+}
+
+.r1 a{
+	text-align:center;
+	background-color:#fff;
+}
+
+.r1:hover a{
+	background: rgba(12, 12, 12, 0.5);
+}
+
+.mobile-header{
+	display:none !important;
+}
+
+@media (max-width:600px) {
+	.header{
+		display:none !important;
+	}
+	.mobile-header{
+		display:block !important;
+	}
+}
+
+.r1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.r1 img {
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.r1 .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	height:100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+	bottom:0;
+}
+
+.r1 .info a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+	background-color:#fff;
+	border-radius:4px;
+	padding:3px;
+}
+
+.r1 .info a:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+	background-color:#ffbd3f;
+	color:#000;
+}
+
+.r1:hover img {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.r1:hover .info {
+    opacity: 1;
+}
+
+.container-fluid{
+	background-color:#000;
+}
+
+.bg-body-tertiary{
+	background-color:#000 !important;
+}
+
+.container-fluid a{
+	color:#fff;
+	
+}
+
+.container-fluid img{
+	height:40px;
+	width:40px;
+}
